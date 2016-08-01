@@ -41,26 +41,67 @@ body { width: 100%;}
 /********************************************
 * Your CSS rules go down here
 ********************************************/
- head {
-	 border-top-color: lightskyblue;
-
+h1 {
+	margin: 0;
 }
+.head {
+	color: black;
+	background-color: lightskyblue;
+}
+
+head {
+	border-top-color: lightskyblue;
+}
+
 header {
 	width: 100%;
 	height: 5em;
 	background-color: lightskyblue;
+	font-family: sans-serif;
+	margin: 2em;
+	display: inline-flex;
+}
 
+.container {
+	font-family: sans-serif;
 }
 
 footer {
-	color: black;
+	background-color: white;
+	color: white;
 }
 
 .instructions {
-	border: solid lightgray 6px;
+	border: solid lightgray .5em;
+	padding-left: 2em;
 	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: .5em .5em;
 }
-
 .pull-left {
-	float:left;
+	float: left;
+	margin: .5em;
+	border: solid lightgray .5em;
+
+}
+.pull-right {
+	float: right;
+	border: solid white .3em;
+	color: white;
+}
+.clear {
+	background-color: lightskyblue;
+	font-family: sans-serif;
+	padding-top: 1em;
+	padding-left: 1em;
+	padding-right: 3em;
+}
+footer {
+	background-color: black;
+	font-size: xx-small;
+	color: gray;
+	font-style: italic;
+	margin-bottom: 8em;
+	padding-bottom: 1em;
+	padding-top: 1em;
 }

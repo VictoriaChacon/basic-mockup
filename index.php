@@ -7,11 +7,12 @@
 	</head>
 	<body class="sfooter">
 		<div class="sfooter-content">
-			<header>
+			<div class="head" <header>
 				<div class="container">
 					<h1>Dylan's Profe$$ional Web Page</h1>
 				</div>
 			</header>
+				</div>
 			<main>
 				<div class="container">
 					<div class="instructions">
